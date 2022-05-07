@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gazdă: 127.0.0.1:3306
--- Timp de generare: nov. 18, 2021 la 08:11 PM
+-- Timp de generare: dec. 26, 2021 la 10:21 AM
 -- Versiune server: 5.7.31
 -- Versiune PHP: 7.3.21
 
@@ -65,7 +65,9 @@ CREATE TABLE IF NOT EXISTS `note` (
 INSERT INTO `note` (`Marca`, `codDisciplina`, `Nota`) VALUES
 ('L121', 11, 10),
 ('L123', 12, 5),
-('L122', 13, 6);
+('L122', 13, 6),
+('L124', 12, 4),
+('L121', 12, 8);
 
 -- --------------------------------------------------------
 
