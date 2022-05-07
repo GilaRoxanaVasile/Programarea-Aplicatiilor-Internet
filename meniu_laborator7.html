@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Meniu</title>  
+    <style type="text/css">
+#meniu {
+padding-top: 100px;
+padding-left: 600px;
+text-align: center;
+width: 350px;
+height: 350px;
+overflow-y: auto;
+}
+#meniu ul {
+    margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#meniu a {
+background-color: #eee;
+color: black;
+display: block;
+padding: 15px;
+text-decoration: none;
+}
+#meniu a:hover {
+background-color: #ccc;
+}
+#meniu a.active {
+background-color: #a78adf;
+color: white;
+}
+        </style>
+</head>
+<body>
+    <div id="meniu">
+        <ul>
+        <li><a href="http://localhost/afisare_discipline.php" class="active">Afisare tabela <i>discipline</i></a></li>
+        <li><a href="http://localhost/introducere_discipline.php">Introducere disciplina</a></li>
+        <li><a href="http://localhost/stergere_discipline3.php">Stergere disciplina</a></li>
+        <li><a href="http://localhost/modificare_date_discipline1.php">Modificare date disciplina</a></li>
+        <li><a href="http://localhost/afisare_discipline_studenti.php">Afisarea tuturor studentilor si a notelor acestora la diferite discipline</a></li>
+        <li><a href="http://localhost/afisare_note_discipline.php">Afisarea fiecarei discipline si a numarului de studenti prezenti la examen la acea disciplina</a></li>
+        </ul>
+    </div>
+</body>
+</html>
